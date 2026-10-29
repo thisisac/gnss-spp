@@ -10,3 +10,7 @@ out/
 data/*.bin
 data/*.dat
 results/*.tmp
+# Private reports and office documents
+docs/*.pdf
+docs/*.doc
+docs/*.docx
