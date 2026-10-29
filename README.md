@@ -1,8 +1,8 @@
 # GNSS SPP / 双频 GNSS 单点定位
 
-一个基于 C++ 的双频 GPS/BDS 单点定位（Single Point Positioning, SPP）与单点测速程序。项目来自《卫星导航算法与程序设计》课程设计，保留了原始源码、实验结果、MATLAB 绘图脚本和课程报告。
+一个基于 C++ 的双频 GPS/BDS 单点定位（Single Point Positioning, SPP）与单点测速程序。项目来自《卫星导航算法与程序设计》课程设计，包含源码、实验结果和 MATLAB 绘图脚本。个人课程报告未随仓库发布。
 
-This repository contains a C++ dual-frequency GPS/BDS Single Point Positioning (SPP) and standalone velocity-estimation program. It preserves the original course-project source code, experiment outputs, MATLAB plotting scripts, and technical report.
+This repository contains a C++ dual-frequency GPS/BDS Single Point Positioning (SPP) and standalone velocity-estimation program. It includes the source code, experiment outputs, and MATLAB plotting scripts; the personal course report is intentionally excluded.
 
 ## 1. 项目能力 / Capabilities
 
@@ -129,15 +129,15 @@ The program runs in file mode by default and writes `RESfile.txt`. The files und
 4. 检查 `RESfile.txt` 的历元级定位和测速结果；
 5. 使用 `results/SPPdraw.m` 或 MATLAB 脚本进行可视化。
 
-## 7. 报告与可复现性 / Reports and Reproducibility
+## 7. 文档与可复现性 / Documentation and Reproducibility
 
-详见 [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) 和 [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md)。课程报告位于 `docs/SPP-course-report.pdf` 和 `docs/SPP-course-report.docx`。
+详见 [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) 和 [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md)。个人课程报告因包含个人信息，未随仓库发布。
 
-See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) and [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md). The course report is available as `docs/SPP-course-report.pdf` and `docs/SPP-course-report.docx`.
+See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) and [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md). The personal course report is intentionally excluded because it contains personal information.
 
-原始 GNSS 输入数据没有随项目发布，因此无法保证报告中的数值在任意数据集上逐字节复现。报告中的精度与特定数据、参考坐标和配置有关。
+原始 GNSS 输入数据没有随项目发布，因此无法保证已有实验结果在任意数据集上逐字节复现。精度与特定数据、参考坐标和配置有关。
 
-The original GNSS binary input is not distributed, so the numerical values in the report cannot be reproduced byte-for-byte from this repository alone. Reported accuracy depends on the specific data, reference coordinates, and configuration.
+The original GNSS binary input is not distributed, so archived experiment values cannot be reproduced byte-for-byte from this repository alone. Accuracy depends on the specific data, reference coordinates, and configuration.
 
 ## 8. 项目状态 / Project Status
 
